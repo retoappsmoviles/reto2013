@@ -5,11 +5,11 @@ Analizaremos los sistemas operativos móviles desde el punto de vista de la prog
 
 
 
-More info:
+###More info:
 http://retoappsmoviles.blogspot.com.es/
 
 
-Twitter:
+###Twitter:
 - @carcoco9999
 - @edgarmiro
 - @siscotrompa
