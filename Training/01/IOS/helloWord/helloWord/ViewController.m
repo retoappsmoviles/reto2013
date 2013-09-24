@@ -27,6 +27,6 @@
 }
 
 - (IBAction)pushMe:(id)sender {
-    self.label.text = @"Hello Word";
+    self.label.text = @"Hello Word!";
 }
 @end
