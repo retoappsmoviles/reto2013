@@ -10,6 +10,6 @@ http://retoappsmoviles.blogspot.com.es/
 
 
 Twitter:
-@carcoco9999
-@edgarmiro
-@siscotrompa
+- @carcoco9999
+- @edgarmiro
+- @siscotrompa
