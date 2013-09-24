@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="action_settings">Configuració</string>
+    <string name="app_name">Entrenament 02</string>
+    <string name="button">Botó</string>
+    <string name="hello_world">Hola mon!</string>
+
+</resources>
