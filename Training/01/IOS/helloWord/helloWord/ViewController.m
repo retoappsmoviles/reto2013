@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushMe:(id)sender {
+    self.label.text = @"Hello Word";
+}
 @end
