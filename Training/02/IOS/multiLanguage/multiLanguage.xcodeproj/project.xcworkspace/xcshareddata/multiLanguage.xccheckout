@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>951FFD8A-50E7-4752-8E74-84CD8A86EF39</string>
+	<string>A3DB6B32-C074-45CD-898F-13E23D47163F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>helloWord</string>
+	<string>multiLanguage</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8A5BC869-7C9A-4CA7-8229-25467608B1F0</key>
+		<key>2C953014-526C-4C28-BBD5-5406B11C80DB</key>
 		<string>https://github.com/retoappsmoviles/reto2013.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Training/01/IOS/helloWord/helloWord.xcodeproj/project.xcworkspace</string>
+	<string>Training/02/IOS/multiLanguage/multiLanguage.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8A5BC869-7C9A-4CA7-8229-25467608B1F0</key>
+		<key>2C953014-526C-4C28-BBD5-5406B11C80DB</key>
 		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8A5BC869-7C9A-4CA7-8229-25467608B1F0</string>
+	<string>2C953014-526C-4C28-BBD5-5406B11C80DB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8A5BC869-7C9A-4CA7-8229-25467608B1F0</string>
+			<string>2C953014-526C-4C28-BBD5-5406B11C80DB</string>
 			<key>IDESourceControlWCCName</key>
-			<string>helloWord</string>
+			<string>reto2013</string>
 		</dict>
 	</array>
 </dict>
