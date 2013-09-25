@@ -1,0 +1,12 @@
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\Bin\Debug\ApplicationIcon.png
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\Bin\Debug\Background.png
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\Bin\Debug\WP_task01.dll
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\Bin\Debug\WP_task01.pdb
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\Bin\Debug\AppManifest.xaml
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\Bin\Debug\WP_task01.xap
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\obj\Debug\App.g.i.cs
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\obj\Debug\MainPage.g.i.cs
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\obj\Debug\WP_task01.g.resources
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\obj\Debug\WP_task01.dll
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\obj\Debug\WP_task01.pdb
+C:\Users\Sisco\documents\visual studio 2010\Projects\WP_task01\WP_task01\obj\Debug\XapCacheFile.xml
