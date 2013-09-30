@@ -7,102 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F47E8017F9FE1C00FCE290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F47E7F17F9FE1C00FCE290 /* UIKit.framework */; };
-		07F47E8217F9FE1C00FCE290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F47E8117F9FE1C00FCE290 /* Foundation.framework */; };
-		07F47E8417F9FE1C00FCE290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F47E8317F9FE1C00FCE290 /* CoreGraphics.framework */; };
-		07F47E8A17F9FE1C00FCE290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F47E8817F9FE1C00FCE290 /* InfoPlist.strings */; };
-		07F47E8C17F9FE1C00FCE290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F47E8B17F9FE1C00FCE290 /* main.m */; };
-		07F47E9017F9FE1C00FCE290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F47E8F17F9FE1C00FCE290 /* AppDelegate.m */; };
-		07F47E9217F9FE1C00FCE290 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F47E9117F9FE1C00FCE290 /* Default.png */; };
-		07F47E9417F9FE1C00FCE290 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F47E9317F9FE1C00FCE290 /* Default@2x.png */; };
-		07F47E9617F9FE1C00FCE290 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F47E9517F9FE1C00FCE290 /* Default-568h@2x.png */; };
-		07F47E9917F9FE1C00FCE290 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F47E9717F9FE1C00FCE290 /* MainStoryboard.storyboard */; };
-		07F47E9C17F9FE1C00FCE290 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F47E9B17F9FE1C00FCE290 /* ViewController.m */; };
+		07BE248017F718FA00CF95B8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07BE248217F718FA00CF95B8 /* Localizable.strings */; };
+		07D9572517F6D294000A6774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9572417F6D294000A6774 /* UIKit.framework */; };
+		07D9572717F6D294000A6774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9572617F6D294000A6774 /* Foundation.framework */; };
+		07D9572917F6D294000A6774 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D9572817F6D294000A6774 /* CoreGraphics.framework */; };
+		07D9572F17F6D294000A6774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07D9572D17F6D294000A6774 /* InfoPlist.strings */; };
+		07D9573117F6D294000A6774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9573017F6D294000A6774 /* main.m */; };
+		07D9573517F6D294000A6774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9573417F6D294000A6774 /* AppDelegate.m */; };
+		07D9573717F6D294000A6774 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D9573617F6D294000A6774 /* Default.png */; };
+		07D9573917F6D294000A6774 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D9573817F6D294000A6774 /* Default@2x.png */; };
+		07D9573B17F6D294000A6774 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D9573A17F6D294000A6774 /* Default-568h@2x.png */; };
+		07D9573E17F6D294000A6774 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D9573C17F6D294000A6774 /* MainStoryboard.storyboard */; };
+		07D9574117F6D294000A6774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9574017F6D294000A6774 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07F47E7C17F9FE1C00FCE290 /* reto02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reto02.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07F47E7F17F9FE1C00FCE290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		07F47E8117F9FE1C00FCE290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		07F47E8317F9FE1C00FCE290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07F47E8717F9FE1C00FCE290 /* reto02-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "reto02-Info.plist"; sourceTree = "<group>"; };
-		07F47E8917F9FE1C00FCE290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		07F47E8B17F9FE1C00FCE290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07F47E8D17F9FE1C00FCE290 /* reto02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reto02-Prefix.pch"; sourceTree = "<group>"; };
-		07F47E8E17F9FE1C00FCE290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		07F47E8F17F9FE1C00FCE290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07F47E9117F9FE1C00FCE290 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		07F47E9317F9FE1C00FCE290 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		07F47E9517F9FE1C00FCE290 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		07F47E9817F9FE1C00FCE290 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		07F47E9A17F9FE1C00FCE290 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07F47E9B17F9FE1C00FCE290 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07BE247917F7158700CF95B8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07BE247A17F715C500CF95B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07BE247C17F715CF00CF95B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		07BE247D17F715D400CF95B8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		07BE248117F718FA00CF95B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07BE248317F7190100CF95B8 /* es */ = {isa = PBXFileReference; lastKnownFileType = file; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07D9572117F6D294000A6774 /* reto02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reto02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9572417F6D294000A6774 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07D9572617F6D294000A6774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07D9572817F6D294000A6774 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07D9572C17F6D294000A6774 /* reto02-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "reto02-Info.plist"; sourceTree = "<group>"; };
+		07D9572E17F6D294000A6774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07D9573017F6D294000A6774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D9573217F6D294000A6774 /* reto02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reto02-Prefix.pch"; sourceTree = "<group>"; };
+		07D9573317F6D294000A6774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D9573417F6D294000A6774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D9573617F6D294000A6774 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07D9573817F6D294000A6774 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07D9573A17F6D294000A6774 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07D9573F17F6D294000A6774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D9574017F6D294000A6774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07F47E7917F9FE1C00FCE290 /* Frameworks */ = {
+		07D9571E17F6D294000A6774 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F47E8017F9FE1C00FCE290 /* UIKit.framework in Frameworks */,
-				07F47E8217F9FE1C00FCE290 /* Foundation.framework in Frameworks */,
-				07F47E8417F9FE1C00FCE290 /* CoreGraphics.framework in Frameworks */,
+				07D9572517F6D294000A6774 /* UIKit.framework in Frameworks */,
+				07D9572717F6D294000A6774 /* Foundation.framework in Frameworks */,
+				07D9572917F6D294000A6774 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07F47E7317F9FE1C00FCE290 = {
+		07D9571817F6D294000A6774 = {
 			isa = PBXGroup;
 			children = (
-				07F47E8517F9FE1C00FCE290 /* reto02 */,
-				07F47E7E17F9FE1C00FCE290 /* Frameworks */,
-				07F47E7D17F9FE1C00FCE290 /* Products */,
+				07D9572A17F6D294000A6774 /* reto02 */,
+				07D9572317F6D294000A6774 /* Frameworks */,
+				07D9572217F6D294000A6774 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		07F47E7D17F9FE1C00FCE290 /* Products */ = {
+		07D9572217F6D294000A6774 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07F47E7C17F9FE1C00FCE290 /* reto02.app */,
+				07D9572117F6D294000A6774 /* reto02.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07F47E7E17F9FE1C00FCE290 /* Frameworks */ = {
+		07D9572317F6D294000A6774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07F47E7F17F9FE1C00FCE290 /* UIKit.framework */,
-				07F47E8117F9FE1C00FCE290 /* Foundation.framework */,
-				07F47E8317F9FE1C00FCE290 /* CoreGraphics.framework */,
+				07D9572417F6D294000A6774 /* UIKit.framework */,
+				07D9572617F6D294000A6774 /* Foundation.framework */,
+				07D9572817F6D294000A6774 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		07F47E8517F9FE1C00FCE290 /* reto02 */ = {
+		07D9572A17F6D294000A6774 /* reto02 */ = {
 			isa = PBXGroup;
 			children = (
-				07F47E8E17F9FE1C00FCE290 /* AppDelegate.h */,
-				07F47E8F17F9FE1C00FCE290 /* AppDelegate.m */,
-				07F47E9717F9FE1C00FCE290 /* MainStoryboard.storyboard */,
-				07F47E9A17F9FE1C00FCE290 /* ViewController.h */,
-				07F47E9B17F9FE1C00FCE290 /* ViewController.m */,
-				07F47E8617F9FE1C00FCE290 /* Supporting Files */,
+				07D9573317F6D294000A6774 /* AppDelegate.h */,
+				07D9573417F6D294000A6774 /* AppDelegate.m */,
+				07D9573C17F6D294000A6774 /* MainStoryboard.storyboard */,
+				07BE248217F718FA00CF95B8 /* Localizable.strings */,
+				07D9573F17F6D294000A6774 /* ViewController.h */,
+				07D9574017F6D294000A6774 /* ViewController.m */,
+				07D9572B17F6D294000A6774 /* Supporting Files */,
 			);
 			path = reto02;
 			sourceTree = "<group>";
 		};
-		07F47E8617F9FE1C00FCE290 /* Supporting Files */ = {
+		07D9572B17F6D294000A6774 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				07F47E8717F9FE1C00FCE290 /* reto02-Info.plist */,
-				07F47E8817F9FE1C00FCE290 /* InfoPlist.strings */,
-				07F47E8B17F9FE1C00FCE290 /* main.m */,
-				07F47E8D17F9FE1C00FCE290 /* reto02-Prefix.pch */,
-				07F47E9117F9FE1C00FCE290 /* Default.png */,
-				07F47E9317F9FE1C00FCE290 /* Default@2x.png */,
-				07F47E9517F9FE1C00FCE290 /* Default-568h@2x.png */,
+				07D9572C17F6D294000A6774 /* reto02-Info.plist */,
+				07D9572D17F6D294000A6774 /* InfoPlist.strings */,
+				07D9573017F6D294000A6774 /* main.m */,
+				07D9573217F6D294000A6774 /* reto02-Prefix.pch */,
+				07D9573617F6D294000A6774 /* Default.png */,
+				07D9573817F6D294000A6774 /* Default@2x.png */,
+				07D9573A17F6D294000A6774 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,13 +117,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07F47E7B17F9FE1C00FCE290 /* reto02 */ = {
+		07D9572017F6D294000A6774 /* reto02 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07F47E9F17F9FE1C00FCE290 /* Build configuration list for PBXNativeTarget "reto02" */;
+			buildConfigurationList = 07D9574417F6D294000A6774 /* Build configuration list for PBXNativeTarget "reto02" */;
 			buildPhases = (
-				07F47E7817F9FE1C00FCE290 /* Sources */,
-				07F47E7917F9FE1C00FCE290 /* Frameworks */,
-				07F47E7A17F9FE1C00FCE290 /* Resources */,
+				07D9571D17F6D294000A6774 /* Sources */,
+				07D9571E17F6D294000A6774 /* Frameworks */,
+				07D9571F17F6D294000A6774 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,76 +131,92 @@
 			);
 			name = reto02;
 			productName = reto02;
-			productReference = 07F47E7C17F9FE1C00FCE290 /* reto02.app */;
+			productReference = 07D9572117F6D294000A6774 /* reto02.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		07F47E7417F9FE1C00FCE290 /* Project object */ = {
+		07D9571917F6D294000A6774 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = carlos;
 			};
-			buildConfigurationList = 07F47E7717F9FE1C00FCE290 /* Build configuration list for PBXProject "reto02" */;
+			buildConfigurationList = 07D9571C17F6D294000A6774 /* Build configuration list for PBXProject "reto02" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
+				Base,
 			);
-			mainGroup = 07F47E7317F9FE1C00FCE290;
-			productRefGroup = 07F47E7D17F9FE1C00FCE290 /* Products */;
+			mainGroup = 07D9571817F6D294000A6774;
+			productRefGroup = 07D9572217F6D294000A6774 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07F47E7B17F9FE1C00FCE290 /* reto02 */,
+				07D9572017F6D294000A6774 /* reto02 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07F47E7A17F9FE1C00FCE290 /* Resources */ = {
+		07D9571F17F6D294000A6774 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F47E8A17F9FE1C00FCE290 /* InfoPlist.strings in Resources */,
-				07F47E9217F9FE1C00FCE290 /* Default.png in Resources */,
-				07F47E9417F9FE1C00FCE290 /* Default@2x.png in Resources */,
-				07F47E9617F9FE1C00FCE290 /* Default-568h@2x.png in Resources */,
-				07F47E9917F9FE1C00FCE290 /* MainStoryboard.storyboard in Resources */,
+				07D9572F17F6D294000A6774 /* InfoPlist.strings in Resources */,
+				07D9573717F6D294000A6774 /* Default.png in Resources */,
+				07D9573917F6D294000A6774 /* Default@2x.png in Resources */,
+				07D9573B17F6D294000A6774 /* Default-568h@2x.png in Resources */,
+				07D9573E17F6D294000A6774 /* MainStoryboard.storyboard in Resources */,
+				07BE248017F718FA00CF95B8 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07F47E7817F9FE1C00FCE290 /* Sources */ = {
+		07D9571D17F6D294000A6774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F47E8C17F9FE1C00FCE290 /* main.m in Sources */,
-				07F47E9017F9FE1C00FCE290 /* AppDelegate.m in Sources */,
-				07F47E9C17F9FE1C00FCE290 /* ViewController.m in Sources */,
+				07D9573117F6D294000A6774 /* main.m in Sources */,
+				07D9573517F6D294000A6774 /* AppDelegate.m in Sources */,
+				07D9574117F6D294000A6774 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07F47E8817F9FE1C00FCE290 /* InfoPlist.strings */ = {
+		07BE248217F718FA00CF95B8 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07F47E8917F9FE1C00FCE290 /* en */,
+				07BE248117F718FA00CF95B8 /* en */,
+				07BE248317F7190100CF95B8 /* es */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		07D9572D17F6D294000A6774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D9572E17F6D294000A6774 /* en */,
+				07BE247917F7158700CF95B8 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		07F47E9717F9FE1C00FCE290 /* MainStoryboard.storyboard */ = {
+		07D9573C17F6D294000A6774 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07F47E9817F9FE1C00FCE290 /* en */,
+				07BE247A17F715C500CF95B8 /* Base */,
+				07BE247C17F715CF00CF95B8 /* en */,
+				07BE247D17F715D400CF95B8 /* es */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -201,7 +224,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		07F47E9D17F9FE1C00FCE290 /* Debug */ = {
+		07D9574217F6D294000A6774 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		07F47E9E17F9FE1C00FCE290 /* Release */ = {
+		07D9574317F6D294000A6774 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +280,7 @@
 			};
 			name = Release;
 		};
-		07F47EA017F9FE1C00FCE290 /* Debug */ = {
+		07D9574517F6D294000A6774 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -268,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		07F47EA117F9FE1C00FCE290 /* Release */ = {
+		07D9574617F6D294000A6774 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -282,24 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07F47E7717F9FE1C00FCE290 /* Build configuration list for PBXProject "reto02" */ = {
+		07D9571C17F6D294000A6774 /* Build configuration list for PBXProject "reto02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07F47E9D17F9FE1C00FCE290 /* Debug */,
-				07F47E9E17F9FE1C00FCE290 /* Release */,
+				07D9574217F6D294000A6774 /* Debug */,
+				07D9574317F6D294000A6774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07F47E9F17F9FE1C00FCE290 /* Build configuration list for PBXNativeTarget "reto02" */ = {
+		07D9574417F6D294000A6774 /* Build configuration list for PBXNativeTarget "reto02" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07F47EA017F9FE1C00FCE290 /* Debug */,
-				07F47EA117F9FE1C00FCE290 /* Release */,
+				07D9574517F6D294000A6774 /* Debug */,
+				07D9574617F6D294000A6774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 07F47E7417F9FE1C00FCE290 /* Project object */;
+	rootObject = 07D9571917F6D294000A6774 /* Project object */;
 }

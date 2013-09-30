@@ -1,0 +1,12 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "8jk-Km-XDP"; */
+"8jk-Km-XDP.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Name:"; ObjectID = "NdF-pS-ce9"; */
+"NdF-pS-ce9.text" = "Name:";
+
+/* Class = "IBUILabel"; text = "Surname:"; ObjectID = "qsU-IN-qGc"; */
+"qsU-IN-qGc.text" = "Surname:";
+
+/* Class = "IBUIButton"; normalTitle = "Push"; ObjectID = "rmS-Bu-b6e"; */
+"rmS-Bu-b6e.normalTitle" = "Push";
