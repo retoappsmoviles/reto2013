@@ -28,7 +28,7 @@
 
 - (IBAction)pushButton:(id)sender {
     //self.label.text = @"Button pushed";
-    self.label.text = [NSString stringWithFormat:@"%@, %@ %@", NSLocalizedString(@"Hello", @"hello"), self.nameText.text, self.surnameText.text];
+    self.label.text = [NSString stringWithFormat:@"%@, %@ %@", NSLocalizedString(@"Hello", @"hello. Cooment"), self.nameText.text, self.surnameText.text];
 }
 
 - (IBAction)hiddeKeyboard:(id)sender
