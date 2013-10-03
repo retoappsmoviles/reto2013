@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad
 {
-    NSLog(@"Loading secondViewController");
+    NSLog(@"Loading secondViewController.");
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
