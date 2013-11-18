@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07188AAC183A98F600F1E0E5"
+               BlueprintIdentifier = "07188AF3183A994100F1E0E5"
                BuildableName = "reto04.app"
                BlueprintName = "reto04"
                ReferencedContainer = "container:reto04.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07188AD3183A98F600F1E0E5"
+               BlueprintIdentifier = "07188B17183A994100F1E0E5"
                BuildableName = "reto04Tests.xctest"
                BlueprintName = "reto04Tests"
                ReferencedContainer = "container:reto04.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07188AAC183A98F600F1E0E5"
+            BlueprintIdentifier = "07188AF3183A994100F1E0E5"
             BuildableName = "reto04.app"
             BlueprintName = "reto04"
             ReferencedContainer = "container:reto04.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07188AAC183A98F600F1E0E5"
+            BlueprintIdentifier = "07188AF3183A994100F1E0E5"
             BuildableName = "reto04.app"
             BlueprintName = "reto04"
             ReferencedContainer = "container:reto04.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07188AAC183A98F600F1E0E5"
+            BlueprintIdentifier = "07188AF3183A994100F1E0E5"
             BuildableName = "reto04.app"
             BlueprintName = "reto04"
             ReferencedContainer = "container:reto04.xcodeproj">
