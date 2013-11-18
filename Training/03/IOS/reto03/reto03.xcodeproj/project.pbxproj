@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075F13B2180DC06500E5E20B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075F13B1180DC06500E5E20B /* CFNetwork.framework */; };
+		075F13B4180DC06E00E5E20B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075F13B3180DC06E00E5E20B /* QuartzCore.framework */; };
 		07BEC4BA17FDD15600DFDB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BEC4B917FDD15600DFDB9C /* UIKit.framework */; };
 		07BEC4BC17FDD15600DFDB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BEC4BB17FDD15600DFDB9C /* Foundation.framework */; };
 		07BEC4BE17FDD15600DFDB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BEC4BD17FDD15600DFDB9C /* CoreGraphics.framework */; };
@@ -27,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075F13AF180DBFF100E5E20B /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../../../../../Downloads/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
+		075F13B1180DC06500E5E20B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		075F13B3180DC06E00E5E20B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		07BEC4B617FDD15600DFDB9C /* reto03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reto03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BEC4B917FDD15600DFDB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07BEC4BB17FDD15600DFDB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075F13B4180DC06E00E5E20B /* QuartzCore.framework in Frameworks */,
+				075F13B2180DC06500E5E20B /* CFNetwork.framework in Frameworks */,
 				07BEC4BA17FDD15600DFDB9C /* UIKit.framework in Frameworks */,
 				07BEC4BC17FDD15600DFDB9C /* Foundation.framework in Frameworks */,
 				07BEC4BE17FDD15600DFDB9C /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +94,9 @@
 		07BEC4B817FDD15600DFDB9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				075F13B3180DC06E00E5E20B /* QuartzCore.framework */,
+				075F13B1180DC06500E5E20B /* CFNetwork.framework */,
+				075F13AF180DBFF100E5E20B /* Reveal.framework */,
 				07BEC4B917FDD15600DFDB9C /* UIKit.framework */,
 				07BEC4BB17FDD15600DFDB9C /* Foundation.framework */,
 				07BEC4BD17FDD15600DFDB9C /* CoreGraphics.framework */,
@@ -256,7 +266,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.0;
 			};
 			name = Debug;
 		};
@@ -280,7 +290,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -288,9 +298,14 @@
 		07BEC4E517FDD15600DFDB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../../Downloads/Reveal.app/Contents/SharedSupport/iOS-Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "reto03/reto03-Prefix.pch";
 				INFOPLIST_FILE = "reto03/reto03-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,9 +314,14 @@
 		07BEC4E617FDD15600DFDB9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../../Downloads/Reveal.app/Contents/SharedSupport/iOS-Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "reto03/reto03-Prefix.pch";
 				INFOPLIST_FILE = "reto03/reto03-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -326,6 +346,7 @@
 				07BEC4E617FDD15600DFDB9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
